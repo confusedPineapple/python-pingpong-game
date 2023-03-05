@@ -8,7 +8,7 @@ import winsound
 
 screen = Screen()
 screen.setup(width=1100, height= 600)
-screen.bgcolor('pink')
+screen.bgcolor('black')
 screen.title('My PingPong Game <3')
 screen.tracer(0)
 r_paddle = Paddle((500, 0))
